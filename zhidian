@@ -7,7 +7,7 @@ define('DB_PASS','1203');
 define('DB_NAME','phpcms');
 define('DB_PORT',3306);
 define('DB_CHAR','utf8');
-define('APPNAME','无间道');
+define('APPNAME','***');
 $conn=mysql_connect(DB_HOST.':'.DB_PORT,DB_USER,DB_PASS);
 mysql_select_db(DB_NAME);
 mysql_query('set names ' . DB_CHAR);
